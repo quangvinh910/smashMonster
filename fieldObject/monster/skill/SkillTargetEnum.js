@@ -1,0 +1,9 @@
+SkillTargetEnum = {
+    SELF : 'SELF',
+    SELF_ALL : 'SELFALL', 
+    SELF_EACH : 'SELFEACH', 
+    TURRET_LINE : 'TURRETLINE', 
+    TURRET_ALL : 'TURRETALL', 
+    TURRET_X : 'TURRETX',
+    TURRET_U : 'TURRETU'
+}
