@@ -10,7 +10,7 @@ Smash = {
             return !x && !y && !place;
         }
     },
-    spriteSize : 300
+    spriteSize : 250
 }
 Smash.Play = function (game) {
     //do nothing for now
