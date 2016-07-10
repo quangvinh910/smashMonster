@@ -6,8 +6,8 @@ class Field{
         }
         for (var i = 0; i < 3; i++){
             for (var j = 0; j < 3; j++) {
-                var xPos = 500*i + 100;
-                var yPos = 500*j + 100;
+                var xPos = Smash.spriteSize*i + 100;
+                var yPos = Smash.spriteSize*j + 100;
                 var spr = game.add.sprite(xPos, yPos, 'b_turret');
                 spr.alpha = 0.5;
                 spr.inputEnabled = true;

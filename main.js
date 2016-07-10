@@ -9,7 +9,8 @@ Smash = {
         isEmpty : function(){
             return !x && !y && !place;
         }
-    }
+    },
+    spriteSize : 300
 }
 Smash.Play = function (game) {
     //do nothing for now
@@ -22,7 +23,7 @@ Smash.Play.prototype = {
     },
 
 
-    create : function() {
+    create : function(game) {
         Smash.theField = new Field(this.game);
         Smash.monsterSide = new MonsterSide(this.game);
 
