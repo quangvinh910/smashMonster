@@ -15,5 +15,21 @@
 <script src="city/field.js"></script>
 <script src="main.js"></script>
 
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(2400, 3600, Phaser.AUTO, 'phaser-example');
+
+//        game.state.add('Boot', Bomber.Boot);
+//        game.state.add('Preloader', Bomber.Preloader);
+//        game.state.add('MainMenu', Bomber.MainMenu);
+        game.state.add('Game', Smash.Play);
+
+        game.state.start('Game');
+
+    }
+</script>
+
 </body>
 </html>

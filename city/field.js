@@ -9,6 +9,7 @@ class Field{
                 var xPos = 500*i + 100;
                 var yPos = 500*j + 100;
                 var spr = game.add.sprite(xPos, yPos, 'b_turret');
+                spr.alpha = 0.5;
                 spr.inputEnabled = true;
                 var sideLine = i == 2 || j == 2 ? true : false;
                 this.turrets[i][j] = new Turret(game, spr, sideLine,  100, 100, 12, xPos, yPos, i, j);
