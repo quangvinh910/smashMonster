@@ -6,7 +6,7 @@ class MonsterSide{
             var xPos = Smash.spriteSize*i + 100;
             var yPos = 1000;
             var spr = game.add.sprite(xPos, yPos, 'b_pockitz');
-            this.monsters[i] = new Monster(game, spr,  20000, 1000, 10,  xPos, yPos, i);
+            this.monsters[i] = new Monster(game, spr,  20000, 1000, 12,  xPos, yPos, i);
         }
     }
 }
